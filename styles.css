@@ -1,0 +1,297 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    font-size: 44px;
+    margin: 20px 0px 10px;
+}
+
+h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: .5px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+/* ================ Header Section ================ */
+
+header {
+    background-color: #eaf0ff;
+    text-align: center;
+}
+
+.header__top {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d8deed;
+}
+
+.header__top h1 {
+    font-family: 'Spectral', serif;
+    font-weight: 300;
+    font-size: 44px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul li a {
+    display: inline-block;
+    padding: 30px;
+    text-decoration: none;
+    color: #363e50;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+/* ================ Banner Section ================ */
+
+#banner {
+    background-image: url(img/banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 180px 0px;
+    text-align: center;
+    color: white;
+}
+
+#banner h2 {
+    font-family: 'Spectral', serif;
+}
+
+#banner h4 {
+    font-weight: 500;
+}
+
+#banner h4, #banner p {
+    margin-bottom: 10px;
+    
+}
+
+#banner p {
+    font-size: 14px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.7;
+}
+
+.banner__btn {
+    margin-top: 20px;
+    background-color: #f2745f;
+    color: white;
+}
+
+
+/* ================ Cook Delecious Section ================ */
+
+#cook-delecious {
+    padding: 120px;
+}
+
+#cook-delecious .container {
+    display: flex;
+    align-items: center;
+}
+
+#cook-delecious .img-left,
+#cook-delecious .img-right {
+    flex: .3;
+}
+
+#cook-delecious .img-left img,
+#cook-delecious .img-right img {
+    width: 100%;
+}
+
+#cook-delecious .middle-box {
+    flex: .4;
+    background-color: #f2745f;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+
+.middle-box .heading h4 {
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.contact-content {
+    background-color: #f3826f;
+    padding: 20px 30px;
+}
+
+.contact-content h5 {
+    font-size: 11px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}
+
+.contact-content p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.middle-box__or {
+    border: 1px solid #da6856;
+    display: inline-block;
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 5px;
+    margin: 20px;
+}
+
+.middle-box__btn a {
+    background-color: white;
+    color: #f2745f;
+}
+
+
+/* ================ Services Section ================ */
+#services .container {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+
+.service-item {
+    text-align: center;
+}
+
+.service-item a {
+    text-decoration: none;
+}
+
+.service-item img {
+    border: 10px solid #eaf0ff;
+    border-radius: 50%;
+}
+
+.service-item h4 {
+    color: #121212;
+    font-size: 22px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-family: 'Spectral', serif;
+}
+
+
+/* ================ Book Table Section ================ */
+#book-table {
+    background-image: url(./img/book-bg.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 120px 0px;
+    text-align: center;
+}
+
+#book-table h2 {
+    font-size: 22px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+}
+
+.book-table__content {
+    display: flex;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.book-table__content .left-section {
+    flex: 1;
+}
+
+.book-table__content .left-section img {
+    width: 100%;
+    height: 100%;
+}
+
+.book-table__content .right-section {
+    flex: 1;
+    background-color: white;
+    padding: 30px;
+}
+
+.book-table__content .right-section h4 {
+    font-family: 'Spectral', serif;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.right-section form > * {
+    width: 40%;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-left: 5%;
+    color: #9a9a9a;
+    border: none;
+    border-bottom: 1px solid #eee;
+    outline: none;
+
+
+}
+
+.book-table__btn {
+    background-color: #f2745f;
+    color: white !important;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+/* ================ Get App Section ================ */
+#get-app {
+    background-color: #f2745f;
+    padding: 60px 0px;
+    text-align: center;
+}
+
+#get-app h4 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.get-app__btn {
+    background-color: white;
+    color: #f2745f;
+}
